@@ -1,59 +1,70 @@
-#  Customer Retention & Churn Analysis (Tableau)
+# Customer Retention & Churn Analysis | Tableau
 
-## Overview
+## Project Overview
 
-This project explores customer churn behaviour using Tableau, focusing on identifying when customers are most likely to leave and how churn impacts revenue.
+Customer retention is important for businesses that depend on recurring revenue. Understanding why customers leave helps organisations identify potential risks, improve customer experiences, and make better decisions.
 
-The dashboard provides a clear, business-focused view of customer retention, churn distribution, and customer value to support data-driven decision-making.
+This project analyses customer churn patterns across 7,043 telecom customers using Tableau. It explores how customer tenure and monthly charges relate to churn and highlights areas where retention efforts could be prioritised.
 
----
+## Business Objectives
 
-##  Objectives
+- Measure overall customer churn and retention.
+- Identify customer groups with higher churn rates.
+- Compare average monthly charges between churned and retained customers.
+- Translate findings into practical recommendations for improving customer retention.
 
-* Analyse customer churn patterns
-* Identify high-risk customer segments
-* Compare revenue between churned and retained customers
-* Highlight key opportunities for improving retention
+## Dashboard Preview
 
----
+![Customer Retention and Churn Dashboard](dashboard.png)
 
-##  Dashboard Preview
+## Key Performance Indicators
 
-![Dashboard](dashboard.png)
+| Metric | Result |
+|---|---|
+| Total Customers | 7,043 |
+| Churned Customers | 1,869 |
+| Retained Customers | 5,174 |
+| Churn Rate | 26.5% |
+| Average Monthly Charges | $64.76 |
 
----
+## Key Findings
 
-##  Key Insights
+**1. Customer churn**
 
-* Churn rate is **27%**, indicating a significant portion of customers are leaving
-* The number of churned customers (**5,174**) significantly exceeds retained customers (**1,869**)
-* Churn is highest in the **early months (0–6 months)**, showing new customers are most at risk
-* Retained customers generate higher average monthly revenue (**£74.44**) compared to churned customers (**£61.27**)
+Of the 7,043 customers analysed, 1,869 had churned, representing a churn rate of 26.5%.
 
----
+**2. Monthly charges and churn**
 
-##  Tools Used
+Churned customers had higher average monthly charges ($74.44) than retained customers ($61.27). This suggests pricing may be worth investigating as a potential factor associated with churn.
 
-* **Tableau** (Data Visualisation)
-* **Excel / CSV Dataset** (Telco Customer Churn)
+**3. Customer tenure and retention**
 
----
+Churn was highest among customers in the shortest-tenure group (54.3%) and generally decreased as customer tenure increased. Customers in the 72-month group had a churn rate of approximately 1.7%.
 
-##  Files
+## Business Recommendations
 
-* `dashboard.png` → Dashboard preview
-* `churn_dashboard.twbx` → Tableau workbook
+- Investigate customer experiences during the first six months to identify potential retention challenges.
+- Examine pricing, contract types, and service experiences to better understand differences between churned and retained customers.
+- Use these findings to guide further customer segmentation and retention analysis.
 
----
+## Tools and Data
 
-##  How to Use
+- **Tableau:** Data visualisation, calculated fields, dashboard development, and analysis.
+- **Dataset:** IBM Telco Customer Churn dataset.
 
-1. Download the `.twbx` file
-2. Open in Tableau
-3. Interact with the dashboard to explore insights
+## Project Files
 
----
+- `dashboard.png` — Dashboard preview.
+- `Customer Retention and Churn Analysis1.twbx` — Tableau workbook.
 
-##  About Me
+## How to Explore
 
-MSc Data Science student with a background in software engineering, focused on building data-driven solutions in analytics and machine learning.
+Download the `.twbx` workbook and open it in Tableau to explore the visualisations and calculations.
+
+## About Me
+
+I am a software and data professional with experience developing applications, integrating data through APIs, and working with stakeholders to deliver practical solutions.
+
+My work spans software engineering, data analytics, and machine learning. I use Python, SQL, JavaScript, and data visualisation tools to analyse information, identify patterns, and build solutions that support business decisions.
+
+I am particularly interested in using technology and data to improve processes, understand complex problems, and deliver measurable value.
